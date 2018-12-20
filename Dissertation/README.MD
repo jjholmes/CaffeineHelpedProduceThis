@@ -1,4 +1,4 @@
-#Dissertation app
+Dissertation app
 
 C# Evolutionary algorithm backend with a html/css/JS front end for interactivity
 
