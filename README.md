@@ -1,2 +1,2 @@
 # CaffeineHelpedProduceThis
-Repository containing showcasing some of my code for personal use/work opportunities
+Repository showcasing some of my code for personal use/work opportunities
