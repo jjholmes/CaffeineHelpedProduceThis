@@ -1,3 +1,3 @@
-jenkins:
-  systemMessage: "Welcome to a Jenkins configured as code... try to contain your excitement"
-  numExecutors: 0
+Jenkins:
+systemMessage: "Welcome to a Jenkins configured as code... try to contain your excitement"
+ 
