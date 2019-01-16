@@ -1,6 +1,6 @@
 plugins:
   required:
-    AnsiColor: 0.6.1
+    AnsiColor: latest
 jenkins:
   systemMessage: "Welcome to a Jenkins configured as code... try to contain your excitement"
  
