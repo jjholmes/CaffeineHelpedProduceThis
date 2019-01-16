@@ -1,6 +1,8 @@
-plugins:
-  required:
-    AnsiColor: latest
+tool:
+  git:
+    installations:
+    - home: "git"
+      name: "Default"
 jenkins:
   systemMessage: "Welcome to a Jenkins configured as code... try to contain your excitement"
  
