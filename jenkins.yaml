@@ -3,6 +3,12 @@ tool:
     installations:
     - home: "git"
       name: "Default"
+plugins:
+  required:
+    AnsiColour: 0.6.1
+  sites:
+  - id: "default"
+    url: "https://updates.jenkins.io/update-center.json"
 jenkins:
   systemMessage: "Welcome to a Jenkins configured as code... try to contain your excitement"
  
