@@ -1,8 +1,66 @@
 tool:
+  allure:
+    installations:
+    - name: "allure2.6.0"
+      properties:
+      - installSource:
+          installers:
+          - allureCommandlineInstaller:
+              id: "2.6.0"
+    - name: "allure2.4.1"
+      properties:
+      - installSource:
+          installers:
+          - allureCommandlineInstaller:
+              id: "2.4.1"
   git:
     installations:
     - home: "git"
-      name: "Default"
+      name: "neil@winder-it.co.uk"
+  maven:
+    installations:
+    - name: "Maven 3"
+      properties:
+      - installSource:
+          installers:
+            - maven:
+                id: "3.5.4"
+  gradle:
+    installations:
+    - home: "/opt/gradle/gradle-4.4.1"
+      name: "gradle-default"
+  groovyInstallation:
+    installations:
+    - home: "/opt/groovy/groovy-2.4.15"
+      name: "Groovy-2.4.15"
+  jdk:
+    defaultProperties:
+    - installSource:
+        installers:
+        - jdkInstaller:
+            acceptLicense: false
+  nodejs:
+    defaultProperties:
+    - installSource:
+        installers:
+        - nodeJSInstaller:
+            npmPackagesRefreshHours: 72
+    installations:
+    - name: "nodejs-8.9.4"
+      properties:
+      - installSource:
+          installers:
+          - nodeJSInstaller:
+              id: "8.9.4"
+              npmPackagesRefreshHours: 72
+  sonarRunnerInstallation:
+    installations:
+    - name: "sonar-scanner"
+      properties:
+      - installSource:
+          installers:
+          - sonarRunnerInstaller:
+              id: "3.1.0.1141"
 plugins:
   required:
     AnsiColour: 0.6.1
