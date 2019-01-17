@@ -3,6 +3,9 @@ jenkins:
 plugins:
   required:
     Pipeline Maven integration: 3.6.6
+  sites:
+  - id: "default"
+    url: "https://updates.jenkins.io/update-center.json"
 tool:
   git:
     installations:
