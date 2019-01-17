@@ -5,6 +5,7 @@ plugin:
 tool:
   git:
     installlations:
-    - home: "git"
-    name: "neil@winder-it.co.uk"
+      - name: neil@winder-it.co.uk
+        home: git
+
 
