@@ -2,7 +2,10 @@ jenkins:
   systemMessage: "Welcome to a Jenkins configured as code... try to contain your excitement"
 plugins:
   required:
-    Pipeline Maven integration: latest
+    pipeline-maven: latest
+  sites:
+  - id: "default"
+    url: "https://updates.jenkins.io/update-center.json"
 tool:
   git:
     installations:
