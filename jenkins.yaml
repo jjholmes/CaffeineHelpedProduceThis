@@ -1,7 +1,8 @@
 jenkins:
   systemMessage: "Welcome to a Jenkins configured as code... try to contain your excitement"
-plugin:
-  Pipeline-Maven-integration: 3.6.6
+plugins:
+  required:
+    Pipeline-Maven-integration: 3.6.6
 tool:
   git:
     installations:
