@@ -1,3 +1,10 @@
 jenkins:
   systemMessage: "Welcome to a Jenkins configured as code... try to contain your excitement"
- 
+plugin:
+  git: 3.9.1
+tool:
+  git:
+    installlations:
+    - home: "git"
+    name: "neil@winder-it.co.uk"
+
