@@ -4,7 +4,7 @@ plugin:
   git: 3.9.1
 tool:
   git:
-    installlations:
+    installations:
       - name: neil@winder-it.co.uk
         home: git
 
