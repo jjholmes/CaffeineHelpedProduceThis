@@ -11,5 +11,14 @@ tool:
     installations:
       - name: neil@winder-it.co.uk
         home: git
+  gradle:
+    installations:
+      - name: gradle-default
+      GRADLE_HOME: /opt/gradle/gradle-4.4.1
+  groovy:
+    installations:
+      - name: groovy-2.4.15
+      GROOVY_HOME: /opt/groovy/groovy-2.4.15
+
 
 
