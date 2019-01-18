@@ -14,11 +14,11 @@ tool:
   gradle:
     installations:
       - name: gradle-default
-      GRADLE_HOME: /opt/gradle/gradle-4.4.1
+        home: /opt/gradle/gradle-4.4.1
   groovy:
     installations:
       - name: groovy-2.4.15
-      GROOVY_HOME: /opt/groovy/groovy-2.4.15
+        home: /opt/groovy/groovy-2.4.15
 
 
 
