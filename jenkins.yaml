@@ -16,10 +16,9 @@ tool:
     installations:
       - name: gradle-default
         home: /opt/gradle/gradle-4.4.1
-  groovy:
-    installations:
-      - name: groovy-2.4.15
-        home: /opt/groovy/groovy-2.4.15
-
+  # groovy:
+  #   installations:
+  #     - name: groovy-2.4.15
+  #       home: /opt/groovy/groovy-2.4.15
 
 
