@@ -3,6 +3,7 @@ jenkins:
 plugins:
   required:
     pipeline-maven: latest
+    groovy: latest
   sites:
   - id: "default"
     url: "https://updates.jenkins.io/update-center.json"
